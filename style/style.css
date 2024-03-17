@@ -13,8 +13,7 @@ body {
     max-width: 100%;
     max-height: 100%;
     background-size: cover;
-    background-repeat: r
-    epeat;
+    background-repeat: repeat;
     background-position: center;
 }
 .title {
@@ -106,4 +105,24 @@ background-image: url(../assets/leafbg4.png);
 
 .navlink:hover {
     color:#FDFF9A;
+}
+
+.figscreen {
+    background-image: url(../assets/figbg.png);
+      min-height: 100%;
+      min-width: 1024px;
+      width: 100%;
+      height: auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-size: cover;
+}
+
+.description {
+    position: relative;
+}
+
+.figsection {
+    
 }
