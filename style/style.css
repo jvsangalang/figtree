@@ -1,6 +1,7 @@
 @import 
 url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 body {
     background-color: #600862;
@@ -16,13 +17,11 @@ body {
     background-repeat: repeat;
     background-position: center;
 }
+
 .title {
     text-align: center;
     padding-top: 20px;
-    padding-bott
-    
-    
-    /p;;;;;;;;;;;;;;;;;;;;;;;om: -20px;
+    padding-bottom: -20px;
 }
 
 a {
@@ -38,8 +37,25 @@ h1 {
     text-align: center;
 }
 
+#smaller {
+    font-size: 40pt;
+}
+
+.unlocked {
+    font-size: 50pt;
+    color:#FDFF9A;
+    margin-top: 35vh;
+}
+
 h2 {
     font-family: Bellota, serif;
+    color: white;
+    font-size: 30pt;
+    z-index: 1;
+}
+
+p {
+    font-family: Bellota Text, serif;
     color: white;
     font-size: 20pt;
     z-index: 1;
@@ -58,14 +74,15 @@ button {
     margin: auto;
 }
 
+.backbutton {
+    margin: auto;
+    text-align: center;
+}
+
 .playbutton {
     color: #600862;
     text-align: center;
     margin-top: 5%;
-}
-
-#smaller {
-    font-size: 40pt;
 }
 
 .about {
@@ -86,15 +103,15 @@ button {
 }
 
 .gamescreen {
-background-image: url(../assets/leafbg4.png);
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-size: cover;
+    background-image: url(../assets/leafbg4.png);
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: cover;
 }
 
 .navlink {
@@ -109,20 +126,35 @@ background-image: url(../assets/leafbg4.png);
 
 .figscreen {
     background-image: url(../assets/figbg.png);
-      min-height: 100%;
-      min-width: 1024px;
-      width: 100%;
-      height: auto;
-      position: fixed;
-      top: 0;
-      left: 0;
-      background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: cover;
+}
+
+.answerscreen {
+    background-image: url(../assets/answerbg5.png);
+    min-height: 100vh;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-size: cover;
 }
 
 .description {
     position: relative;
+    top: 100vh;
 }
 
-.figsection {
-    
+.figtext {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 50px;
 }
