@@ -61,6 +61,10 @@ p {
     z-index: 1;
 }
 
+em {
+    color: #FDFF9A;
+}
+
 button {
     background-color: #FDFF9A;
     border: none;
@@ -93,7 +97,7 @@ button {
 }
 
 .aboutbutton {
-    padding-top: 30px;
+    margin-top: 40px;
     color: white;
     font-size: 30pt;
 }
@@ -157,4 +161,21 @@ button {
     margin-left: 200px;
     margin-right: 200px;
     padding-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color:#600862;
+    }
+    h1 {
+        font-size: 4em;
+        margin-top: 2em;
+        margin-bottom: 0em;
+    }
+    h2 {
+        font-size: 1em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        margin-bottom: 2em;
+    }
 }
